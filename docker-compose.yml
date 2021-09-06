@@ -66,9 +66,3 @@ services:
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
     networks:
       - app-network
-
-#Volumes
-volumes:
-  tk_mysql:
-  dbdata:
-    driver: local
